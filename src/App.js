@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 import { Carousel, Content, GetInTouch, RandomBeerFact } from "./pages/Home/Home";
 import About from "./pages/About/About";
-import './App.css';
+import Contact from "./pages/Contact/Contact"
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
      }/>
 
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
 
     </Routes>
 
