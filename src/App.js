@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 import { Carousel, Content, GetInTouch, RandomBeerFact } from "./pages/Home/Home";
 import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact"
+import Contact from "./pages/Contact/Contact";
+import { EventsHero, EventCards } from "./pages/Events/Events"
+import Gallery from "./pages/Gallery/Gallery"
 
 function App() {
   return (
@@ -25,6 +27,13 @@ function App() {
 
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/events" element={
+        <>
+        <EventsHero /> 
+        <EventCards />
+        </>
+      } />
+      <Route path="/gallery" element={<Gallery />} />
 
     </Routes>
 
