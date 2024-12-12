@@ -7,12 +7,14 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import { EventsHero, EventCards } from "./pages/Events/Events"
 import Gallery from "./pages/Gallery/Gallery"
-import Menus from "./pages/Menus/Menus"
+import Menus from "./pages/Menus/Menus";
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   return (
   <Router>
     <div className="App">
+    <ScrollToTop />
       <Navbar />
 
     <Routes>
