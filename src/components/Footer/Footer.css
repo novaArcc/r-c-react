@@ -1,0 +1,27 @@
+
+.footer {
+    position: relative;
+    width: 100%;
+    border-top: 2px solid rgb(230, 230, 230);
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icon-no-underline {
+    text-decoration: none;
+}
+
+.hover-red:hover {
+   color: rgb(168, 7, 7)
+}
+
+.fa-text {
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'FontAwesome';
+  }
+
+.designed {
+    border-top: 3px solid rgb(168, 7, 7);
+  }
+

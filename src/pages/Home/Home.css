@@ -1,0 +1,372 @@
+/*Carousel*/
+
+.c-item {
+    height: 550px;
+    margin-top: 75px;
+    transition: opacity 1.5s ease-in-out !important;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1 !important;
+    }
+}
+
+.carousel-heading {
+    font-size: 65px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:576px){
+    .carousel-heading {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+}
+
+.caption {
+    font-size: 20px;
+    color: rgb(210, 210, 210) !important;
+}
+
+@media only screen and (max-width:800px){
+    .caption{
+        font-size: 15px;
+        margin-top: 2px;
+    }
+}
+
+.carousel-caption {
+    top: 53%;
+    transform: translateY(-53%);
+    text-align: left;
+    color: rgb(245, 245, 245);
+}
+
+@media only screen and (max-width: 800px){
+    .carousel-caption {
+        top: 50%;
+    }
+}
+
+.button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.button::after, .button::before {
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in-out;
+    padding-bottom: 4px;
+}
+
+.button::after {
+    background-color: rgb(245, 245, 245);
+    color: #000;
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.5), inset 5px 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(50px);
+}
+
+.button::before {
+    background-color: rgb(168, 7, 7);
+    box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.5), inset 5px 0 10px rgba(0, 0, 0, 0.5);
+    color: rgb(245, 245, 245);
+    transform: translateY(0px) scale(1.2);
+    z-index: 99999;
+}
+
+.button:hover::after {
+    transform: translateY(0) scale(1.2);
+}
+
+.button:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+}
+
+@media only screen and (max-width: 800px) {
+    .button {
+        box-shadow: none; /* Remove box shadow on hover */
+    }
+    
+    .button:hover::after,
+    .button:hover::before {
+        transform: none; /* Remove transformations on hover */
+    }
+}
+
+/* Specific button types */
+.type1::after {
+    content: "About";
+}
+
+.type1::before {
+    content: "More";
+}
+
+.type2::after {
+    content: "Events";
+}
+
+.type2::before {
+    content: "More";
+}
+
+.type3::after {
+    content: "Menus";
+}
+
+.type3::before {
+    content: "More";
+}
+
+.type4::after {
+    content: "Menus";
+}
+
+.type4::before {
+    content: "More";
+}
+
+.type5::after {
+    content: "Events";
+}
+
+.type5::before {
+    content: "More";
+}
+
+.type7::after {
+    content: "History";
+}
+
+.type7::before {
+    content: "More";
+}
+
+.type8::after {
+    content: "Rules";
+}
+
+.type8::before {
+    content: "More";
+}
+
+.type9::after {
+    content: "Events";
+}
+
+.type9::before {
+    content: "More";
+}
+
+
+@media only screen and (max-width: 800px) {
+    .button, .type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8, .type9{
+        margin-top: 0;
+    }
+}
+
+/*Carousel End*/
+
+
+/*Content*/
+
+/*Homepage text*/
+
+.homepage-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #141414;
+}
+
+.homepage-text-center {
+    text-align: center
+}
+
+.homepage-heading {
+    text-transform: uppercase;
+    color: #141414;
+}
+.homepage-heading-center {
+    text-align: center
+}
+
+.light-text {
+    color: #141414;
+}
+
+.heading-red {
+    color: rgb(168, 7, 7)
+}
+
+.light-heading {
+    color: #141414;
+}
+
+
+.type7::after, .type7::before .type8::after, .type8::before, .type9::after, .type9::before {
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 200;
+}
+
+.grey-box {
+    background-color: rgb(230, 230, 230);
+}
+
+.homepage-btn:hover {
+    color: rgb(168, 7, 7);
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245)
+}
+
+.homepage-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Get in touch*/
+
+
+ul {
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: rgb(245, 245, 245);
+    background-color: #141414;
+    transition: all 0.5s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+  }
+  .example-2 .icon-content a:hover {
+    color: #fff;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  
+  .example-2 .icon-content a[data-social="facebook"] .filled,
+  .example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
+    background-color: rgb(168, 7, 7);
+  }
+  
+  .example-2 .icon-content a[data-social="instagram"] .filled,
+  .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+    background: rgb(168, 7, 7);
+  }
+
+  .example-2 .icon-content a[data-social="phone"] .filled,
+  .example-2 .icon-content a[data-social="phone"] ~ .tooltip {
+    background-color: rgb(168, 7, 7);
+  }
+  
+  .example-2 .icon-content a[data-social="email"] .filled,
+  .example-2 .icon-content a[data-social="email"] ~ .tooltip {
+    background-color: rgb(168, 7, 7);
+  }
+
+/* Get in touch end*/
+
+/* Random Beer Generator */
+
+.gen-btn {
+    background-color: rgb(168, 7, 7);
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+}
+
+.beer-fact-img {
+    width: 230px;
+    height: auto;
+}
+
+.fact-joke {
+    font-size: 17px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    color: #141414
+}

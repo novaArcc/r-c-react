@@ -1,0 +1,23 @@
+
+.menus-wrapper {
+    max-width: 600px; 
+    padding: 30px;
+    border: 1px solid #e9e5e5;
+    margin-top: 90px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 3px 2px 8px 0px rgba(9, 0, 0, 0.5);
+}
+
+
+
+.menu-item {
+    border-bottom: 1px solid #ddd; 
+    padding: 10px 10px; 
+}
+
+.price {
+    white-space: nowrap; 
+}
+
+
+

@@ -1,0 +1,121 @@
+
+
+.whats-on-img {
+    border-radius: 50% 0 0 50%;
+    filter: brightness(0.6);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 700px){
+    .whats-on-img {
+        display: none;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.whats-on-header {
+    color: #141414;
+    font-weight: 600;
+}
+
+
+.whats-on-caption {
+    color: #141414;
+}
+
+@media only screen and (max-width: 576px){
+    .whats-on-caption {
+        text-align: center;
+    }
+}
+
+/*Event Cards*/
+
+.card {
+    background-color: rgb(230, 230, 230);
+    border: 3px solid rgb(234, 232, 232);
+    min-height: 480px;
+}
+
+
+.button {
+    height: 45px;
+    padding-top: 7px;
+    width: 120px;
+    font-weight: 200;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.button::after, .button::before {
+    height: 45px;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 17px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease-in-out;
+    padding-bottom: 4px;
+}
+
+.button::after {
+    background-color: rgb(245, 245, 245);
+    color: #000;
+    transform: translateY(50px);
+}
+
+.button::before {
+    background-color: rgb(168, 7, 7);
+    color: rgb(245, 245, 245);
+    transform: translateY(0px) scale(1.2);
+    z-index: 99999;
+}
+
+.button:hover::after {
+    transform: translateY(0) scale(1.2);
+}
+
+.button:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+}
+
+@media only screen and (max-width: 800px) {
+    .button {
+        box-shadow: none; /* Remove box shadow on hover */
+    }
+    
+    .button:hover::after,
+    .button:hover::before {
+        transform: none; /* Remove transformations on hover */
+    }
+}
+
+/* Specific button types */
+.type1::after {
+    content: "Rules";
+}
+
+.type1::before {
+    content: "More";
+}

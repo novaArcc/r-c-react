@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Ensures fallback until font is loaded */
+}
+
+
+.contact-us-container {
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+.contact-us-img {
+    border-radius: 50% 0 0 50%;
+    filter: brightness(0.8);
+    padding: 0 !important;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
