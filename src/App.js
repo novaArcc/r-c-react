@@ -8,7 +8,8 @@ import Contact from "./pages/Contact/Contact";
 import { EventsHero, EventCards } from "./pages/Events/Events"
 import Gallery from "./pages/Gallery/Gallery"
 import Menus from "./pages/Menus/Menus";
-import ScrollToTop from "./components/ScrollToTop"
+import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
