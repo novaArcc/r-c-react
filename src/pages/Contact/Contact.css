@@ -27,7 +27,7 @@
    width: 320px;
    background-color: rgb(230, 230, 230);
    border: 3px solid rgb(234, 232, 232);
-   top: 400px;
+   top: 500px;
    right: -300px;
    border-radius: 20px;
    animation: slide-in-two 1s ease-out forwards;
@@ -46,7 +46,7 @@
     width: 320px;
     background-color: rgb(230, 230, 230);
     border: 3px solid rgb(234, 232, 232);
-    top: 400px;
+    top: 500px;
     left: -300px;
     border-radius: 20px;
     animation: slide-in 1s ease-out forwards;
