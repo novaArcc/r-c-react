@@ -1,7 +1,7 @@
 import heroImage from "./images/heroimg.JPG";
 import killerPoolImg from "./images/killerpool.jpg";
 import poolRules from "./poolrules.pdf";
-import justAnna from "./images/justanna.jpg"
+import justAnna from "./images/justanna.JPG"
 import sixNationsImg from "./images/sixnations.jpg"
 import "./Events.css"
 
