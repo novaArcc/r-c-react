@@ -25,12 +25,6 @@ const EventsHero = () => {
 
 const events = [
     {
-     title: "Flockin' Killer Pool",
-     date: "Wednesday 26th February 20:00",
-     description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-     image: killerPoolImg
-    },
-    {
       title: "Flockin' Killer Pool",
       date: "Wednesday 5th March 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
@@ -55,6 +49,12 @@ const events = [
       image: sixNationsImg
     },
     {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 12th March 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg
+     },
+    {
       title: "Six Nations: Italy VS Ireland",
       date: "Saturday 15th March 14:15",
       description: "Watch Italy take on Ireland in the Six Nations live on our many screens this Friday at 2:15 PM!",
@@ -67,6 +67,12 @@ const events = [
       image: sixNationsImg
     },
     {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 19th March 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg
+     },
+    {
       title: "Six Nations: France VS Scotland",
       date: "Saturday 15th March 20:00",
       description: "Watch France take on Scotland in the Six Nations live on our many screens this Friday at 8PM! ",
@@ -77,7 +83,19 @@ const events = [
       date: "Saturday 22nd March",
       description: "Experience an electrifying night with the lead singer of Anna & The Tonics, delivering floor-fillers from the '50s to today!",
       image: justAnna
-    }
+    },
+    {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 26th March 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg
+     },
+     {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 2nd April 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg
+     },
   ];
   
   const EventCards = () => {
