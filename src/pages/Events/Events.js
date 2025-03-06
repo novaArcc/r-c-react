@@ -3,6 +3,7 @@ import killerPoolImg from "./images/killerpool.jpg";
 import poolRules from "./poolrules.pdf";
 import justAnna from "./images/justanna.jpg"
 import sixNationsImg from "./images/sixnations.jpg"
+import johnWilliams from "./images/johnwilliams.jpg"
 import "./Events.css"
 
 const EventsHero = () => {
@@ -25,12 +26,6 @@ const EventsHero = () => {
 
 const events = [
     {
-      title: "Flockin' Killer Pool",
-      date: "Wednesday 5th March 20:00",
-      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg
-     },
-    {
       title: "Six Nations: Ireland VS Wales",
       date: "Saturday 8th March 14:15",
       description: "Watch Ireland take on Wales in the Six Nations live on our many screens this Friday at 2:15 PM!",
@@ -39,8 +34,14 @@ const events = [
     {
       title: "Six Nations: Scotland VS Wales",
       date: "Saturday 8th March 16:45",
-      description: "Watch Scotland take on Wales in the Six Nations live on our many screens this Friday at 4:45 PM!",
+      description: "Watch Scotland take on Wales in the Six Nations live on our many screens this Friday at 4:15 PM!",
       image: sixNationsImg
+    },
+    {
+      title: "John Williams",
+      date: "Saturday 8th March 20:00",
+      description: "Our incredible John is back singing this Saturday! Pop down for some wonderful free entertainment!! 8pm start!",
+      image: johnWilliams
     },
     {
       title: "Six Nations: England VS Italy",
@@ -52,7 +53,8 @@ const events = [
       title: "Flockin' Killer Pool",
       date: "Wednesday 12th March 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg
+      image: killerPoolImg,
+      link: poolRules
      },
     {
       title: "Six Nations: Italy VS Ireland",
@@ -70,7 +72,8 @@ const events = [
       title: "Flockin' Killer Pool",
       date: "Wednesday 19th March 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg
+      image: killerPoolImg,
+      link: poolRules
      },
     {
       title: "Six Nations: France VS Scotland",
@@ -88,13 +91,15 @@ const events = [
       title: "Flockin' Killer Pool",
       date: "Wednesday 26th March 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg
+      image: killerPoolImg,
+      link: poolRules
      },
      {
       title: "Flockin' Killer Pool",
       date: "Wednesday 2nd April 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg
+      image: killerPoolImg,
+      link: poolRules
      },
   ];
   
