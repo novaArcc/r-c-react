@@ -26,24 +26,6 @@ const EventsHero = () => {
 
 const events = [
     {
-      title: "Six Nations: Ireland VS Wales",
-      date: "Saturday 8th March 14:15",
-      description: "Watch Ireland take on Wales in the Six Nations live on our many screens this Friday at 2:15 PM!",
-      image: sixNationsImg
-    },
-    {
-      title: "Six Nations: Scotland VS Wales",
-      date: "Saturday 8th March 16:45",
-      description: "Watch Scotland take on Wales in the Six Nations live on our many screens this Friday at 4:15 PM!",
-      image: sixNationsImg
-    },
-    {
-      title: "John Williams",
-      date: "Saturday 8th March 20:00",
-      description: "Our incredible John is back singing this Saturday! Pop down for some wonderful free entertainment!! 8pm start!",
-      image: johnWilliams
-    },
-    {
       title: "Six Nations: England VS Italy",
       date: "Sunday 9th March 15:00",
       description: "Watch England take on Italy in the Six Nations live on our many screens this Friday at 3PM! ",
