@@ -26,18 +26,6 @@ const EventsHero = () => {
 
 const events = [
     {
-      title: "Six Nations: Italy VS Ireland",
-      date: "Saturday 15th March 14:15",
-      description: "Watch Italy take on Ireland in the Six Nations live on our many screens this Friday at 2:15 PM!",
-      image: sixNationsImg
-    },
-    {
-      title: "Six Nations: Wales VS England",
-      date: "Saturday 15th March 16:45",
-      description: "Watch Wales take on England in the Six Nations live on our many screens this Friday at 4:45 PM!  ",
-      image: sixNationsImg
-    },
-    {
       title: "Flockin' Killer Pool",
       date: "Wednesday 19th March 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
@@ -80,6 +68,20 @@ const events = [
      {
       title: "Flockin' Killer Pool",
       date: "Wednesday 16th April 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg,
+      link: poolRules
+     },
+     {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 23rd April 20:00",
+      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+      image: killerPoolImg,
+      link: poolRules
+     },
+     {
+      title: "Flockin' Killer Pool",
+      date: "Wednesday 30th April 20:00",
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
       image: killerPoolImg,
       link: poolRules
