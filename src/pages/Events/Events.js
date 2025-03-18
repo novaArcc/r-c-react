@@ -3,7 +3,8 @@ import killerPoolImg from "./images/killerpool.jpg";
 import poolRules from "./poolrules.pdf";
 import justAnna from "./images/justanna.jpg"
 import sixNationsImg from "./images/sixnations.jpg"
-import johnWilliams from "./images/johnwilliams.jpg"
+import johnWilliams from "./images/johnwilliams.jpg";
+import oneYear from "./images/oneyear.jpg"
 import "./Events.css"
 
 const EventsHero = () => {
@@ -33,12 +34,6 @@ const events = [
       link: poolRules
      },
     {
-      title: "Six Nations: France VS Scotland",
-      date: "Saturday 15th March 20:00",
-      description: "Watch France take on Scotland in the Six Nations live on our many screens this Friday at 8PM! ",
-      image: sixNationsImg
-    },
-    {
       title: "Just Anna",
       date: "Saturday 22nd March",
       description: "Experience an electrifying night with the lead singer of Anna & The Tonics, delivering floor-fillers from the '50s to today!",
@@ -50,6 +45,12 @@ const events = [
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
       image: killerPoolImg,
       link: poolRules
+     },
+     {
+      title: "One Year Birthday",
+      date: "Saturday 29th March Open-Close!",
+      description: "Pop down for some amazing drinks deals, Incredible tunes and the best vibes of the year! 🎂🎈",
+      image: oneYear,
      },
      {
       title: "Flockin' Killer Pool",
