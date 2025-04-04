@@ -1,11 +1,8 @@
 import heroImage from "./images/heroimg.JPG";
 import killerPoolImg from "./images/killerpool.jpg";
 import poolRules from "./poolrules.pdf";
-import justAnna from "./images/justanna.jpg"
-import sixNationsImg from "./images/sixnations.jpg"
-import johnWilliams from "./images/johnwilliams.jpg";
-import oneYear from "./images/oneyear.jpg"
-import "./Events.css"
+import bevan from "./images/bevan.jpg";
+import "./Events.css";
 
 const EventsHero = () => {
   return (
@@ -26,13 +23,6 @@ const EventsHero = () => {
 )}
 
 const events = [
-     {
-      title: "Flockin' Killer Pool",
-      date: "Wednesday 2nd April 20:00",
-      description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-      image: killerPoolImg,
-      link: poolRules
-     },
      {
       title: "Flockin' Killer Pool",
       date: "Wednesday 9th April 20:00",
@@ -88,6 +78,12 @@ const events = [
       description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
       image: killerPoolImg,
       link: poolRules
+     },
+     {
+      title: "Bevan",
+      date: "Saturday 28th June",
+      description: "We have the phenomenal Bevan joining us on June 28th! 🎶🎤 Mark your calendars early because this is one you definitely won't want to miss! ✨",
+      image: bevan,
      },
   ];
   
