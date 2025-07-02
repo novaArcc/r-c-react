@@ -42,7 +42,7 @@ const Footer = () => {
                 <a className="text-decoration-none text-muted fa-text" href="tel:07704345124"><FontAwesomeIcon className="hover-red" icon={faPhone} />   07704345124</a>
               </div>
               <div className="row text-muted ps-1 pb-3">
-                <a className="text-decoration-none text-muted fa-text" href="mailto:theroseandcrown@gmail.com"><FontAwesomeIcon className="hover-red" icon={faEnvelope} />   theroseandcrown@gmail.com</a>
+                <a className="text-decoration-none text-muted fa-text" href="mailto:theroseandcrown@gmail.com"><FontAwesomeIcon className="hover-red" icon={faEnvelope} />   theroseandcrownhay@gmail.com</a>
               </div>
               <div className="row ps-1 pt-1 text-muted">
                 <p>
