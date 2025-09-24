@@ -26,20 +26,6 @@ const EventsHero = () => {
 const events = [
   {
     title: "Flockin' Killer Pool",
-    date: "Wednesday 10th September 20:00",
-    description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-    image: killerPoolImg,
-    link: poolRules
-  },
-  {
-    title: "Flockin' Killer Pool",
-    date: "Wednesday 17th September 20:00",
-    description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
-    image: killerPoolImg,
-    link: poolRules
-  },
-  {
-    title: "Flockin' Killer Pool",
     date: "Wednesday 24th September 20:00",
     description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
     image: killerPoolImg,
@@ -87,6 +73,21 @@ const events = [
     image: killerPoolImg,
     link: poolRules
   },
+      {
+    title: "Flockin' Killer Pool",
+    date: "Wednesday 12th November 20:00",
+    description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+    image: killerPoolImg,
+    link: poolRules
+  },
+    {
+    title: "Flockin' Killer Pool",
+    date: "Wednesday 19th November 20:00",
+    description: "Supported by our wonderful Friends over at BaaadFlockers. Memorise the Rules, come on down & enjoy a perfect mix of Chaos and Fun!",
+    image: killerPoolImg,
+    link: poolRules
+  },
+
 ];
 
 const EventCards = () => {
